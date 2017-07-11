@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inactive {
+  display: none !important;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.title {
+
+}
+
+.button {
+  width: 250px;
+  height: 150px;
+  background-color: red;
+}
+
+.bar {
+  width: 50vw;
+  height: 100px;
+}
