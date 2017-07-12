@@ -22,14 +22,17 @@ body {
 
 .countdown {
   display:flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  width: 75vw;
+  position: relative;
 }
 
 .time {
   margin-bottom: 25px;
   font-size: 40px;
   font-family: 'Nunito', sans-serif;
+  text-align: center;
 }
 
 .icon {
@@ -44,6 +47,7 @@ body {
   margin-bottom: -10px;
   font-family: 'Permanent Marker', cursive;
   font-size: 75px;
+  text-align: center;
 }
 
 .button {
@@ -52,12 +56,18 @@ body {
   background-color: red;
 }
 
+.cover {
+  width: 100vw;
+  position: absolute;
+  left: 75vw;
+  background-color: #fefefe;
+  height: 50px;
+}
+
 .bar {
-  width: 25vw;
   height: 50px;
   background-color: yellow;
   border: 2px solid #212121;
-  position: relative;
 }
 
 .rel {
@@ -77,16 +87,19 @@ body {
 }
 
 #reclaim {
+  width: calc(75vw * (5/11));
   background: #B9500B;
   background: linear-gradient(to left, #A52A2A, #A83806);
 }
 
 #minRespawn {
+  width: calc(75vw * (3/11));
   background: #257DAE;
   background: linear-gradient(to right, #1A88FC, #257DAE);
 }
 
 #maxRespawn {
+  width: calc(75vw * (3/11));
   background: #167C13;
   background: linear-gradient(to left, #598307, #167C13);
 }
