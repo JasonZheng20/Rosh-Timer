@@ -4,19 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Roshan Timer</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class = "row">
-      <div class = "icon"></div>
+      <!-- <div class = "icon"></div> -->
       <h1 class = "title">Roshan Timer</h1>
     </div>
-    <div class = "button">Roshan Defeated</div>
+    <!-- <div class = "button">Roshan Defeated</div> -->
+    <span class = "time">Next: Aegis Reclaimed</span>
     <div class = "countdown">
-      <span class = "time"></span>
-      <div class = "bar" id = "reclaim"></div>
-      <div class = "bar" id = "minRespawn"></div>
-      <div class = "bar" id = "maxRespawn"></div>
+      <div class = "bar leftMost" id = "maxRespawn">
+        <!-- <span class = "rel">Maximum Respawn</span> -->
+      </div>
+      <div class = "bar" id = "minRespawn">
+        <!-- <span class = "rel">Minimum Respawn</span> -->
+      </div>
+      <div class = "bar rightMost" id = "reclaim">
+        <!-- <span class = "rel">Aegis Reclaimed</span> -->
+      </div>
     </div>
   </body>
 </html>

@@ -16,16 +16,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
+  margin-top: -75px;
+}
+
+.countdown {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
 }
 
 .icon {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
+  width: 200px;
+  height: 200px;
+  background-image: url('aegis.png');
+  background-size: cover;
 }
 
 .title {
-
+  margin: 0px;
+  margin-bottom: -10px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 75px;
 }
 
 .button {
@@ -35,6 +53,40 @@ body {
 }
 
 .bar {
-  width: 50vw;
-  height: 100px;
+  width: 25vw;
+  height: 50px;
+  background-color: yellow;
+  border: 2px solid #212121;
+  position: relative;
+}
+
+.rel {
+  position: absolute;
+  top: 50px;
+  font-size: 25px;
+}
+
+.rightMost {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.leftMost {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#reclaim {
+  background: #B9500B;
+  background: linear-gradient(to left, #A52A2A, #A83806);
+}
+
+#minRespawn {
+  background: #257DAE;
+  background: linear-gradient(to right, #1A88FC, #257DAE);
+}
+
+#maxRespawn {
+  background: #167C13;
+  background: linear-gradient(to left, #598307, #167C13);
 }
